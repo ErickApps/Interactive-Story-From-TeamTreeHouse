@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73A4DF41D64197A001D057E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A4DF31D64197A001D057E /* AppDelegate.swift */; };
+		A73A4DF61D64197A001D057E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A4DF51D64197A001D057E /* ViewController.swift */; };
+		A73A4DF91D64197A001D057E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73A4DF71D64197A001D057E /* Main.storyboard */; };
+		A73A4DFB1D64197A001D057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73A4DFA1D64197A001D057E /* Assets.xcassets */; };
+		A73A4DFE1D64197A001D057E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73A4DFC1D64197A001D057E /* LaunchScreen.storyboard */; };
+		A73A4E091D64197A001D057E /* Interactive_Story_from_TreeHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A4E081D64197A001D057E /* Interactive_Story_from_TreeHouseTests.swift */; };
+		A73A4E141D64197A001D057E /* Interactive_Story_from_TreeHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A4E131D64197A001D057E /* Interactive_Story_from_TreeHouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A73A4E051D64197A001D057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73A4DE81D64197A001D057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73A4DEF1D64197A001D057E;
+			remoteInfo = "Interactive Story from TreeHouse";
+		};
+		A73A4E101D64197A001D057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73A4DE81D64197A001D057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73A4DEF1D64197A001D057E;
+			remoteInfo = "Interactive Story from TreeHouse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73A4DF01D64197A001D057E /* Interactive Story from TreeHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive Story from TreeHouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73A4DF31D64197A001D057E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A73A4DF51D64197A001D057E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A73A4DF81D64197A001D057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73A4DFA1D64197A001D057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73A4DFD1D64197A001D057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73A4DFF1D64197A001D057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73A4E041D64197A001D057E /* Interactive Story from TreeHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactive Story from TreeHouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73A4E081D64197A001D057E /* Interactive_Story_from_TreeHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Story_from_TreeHouseTests.swift; sourceTree = "<group>"; };
+		A73A4E0A1D64197A001D057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73A4E0F1D64197A001D057E /* Interactive Story from TreeHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactive Story from TreeHouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73A4E131D64197A001D057E /* Interactive_Story_from_TreeHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Story_from_TreeHouseUITests.swift; sourceTree = "<group>"; };
+		A73A4E151D64197A001D057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73A4DED1D64197A001D057E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E011D64197A001D057E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E0C1D64197A001D057E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73A4DE71D64197A001D057E = {
+			isa = PBXGroup;
+			children = (
+				A73A4DF21D64197A001D057E /* Interactive Story from TreeHouse */,
+				A73A4E071D64197A001D057E /* Interactive Story from TreeHouseTests */,
+				A73A4E121D64197A001D057E /* Interactive Story from TreeHouseUITests */,
+				A73A4DF11D64197A001D057E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73A4DF11D64197A001D057E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73A4DF01D64197A001D057E /* Interactive Story from TreeHouse.app */,
+				A73A4E041D64197A001D057E /* Interactive Story from TreeHouseTests.xctest */,
+				A73A4E0F1D64197A001D057E /* Interactive Story from TreeHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73A4DF21D64197A001D057E /* Interactive Story from TreeHouse */ = {
+			isa = PBXGroup;
+			children = (
+				A73A4DF31D64197A001D057E /* AppDelegate.swift */,
+				A73A4DF51D64197A001D057E /* ViewController.swift */,
+				A73A4DF71D64197A001D057E /* Main.storyboard */,
+				A73A4DFA1D64197A001D057E /* Assets.xcassets */,
+				A73A4DFC1D64197A001D057E /* LaunchScreen.storyboard */,
+				A73A4DFF1D64197A001D057E /* Info.plist */,
+			);
+			path = "Interactive Story from TreeHouse";
+			sourceTree = "<group>";
+		};
+		A73A4E071D64197A001D057E /* Interactive Story from TreeHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A73A4E081D64197A001D057E /* Interactive_Story_from_TreeHouseTests.swift */,
+				A73A4E0A1D64197A001D057E /* Info.plist */,
+			);
+			path = "Interactive Story from TreeHouseTests";
+			sourceTree = "<group>";
+		};
+		A73A4E121D64197A001D057E /* Interactive Story from TreeHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A73A4E131D64197A001D057E /* Interactive_Story_from_TreeHouseUITests.swift */,
+				A73A4E151D64197A001D057E /* Info.plist */,
+			);
+			path = "Interactive Story from TreeHouseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73A4DEF1D64197A001D057E /* Interactive Story from TreeHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73A4E181D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouse" */;
+			buildPhases = (
+				A73A4DEC1D64197A001D057E /* Sources */,
+				A73A4DED1D64197A001D057E /* Frameworks */,
+				A73A4DEE1D64197A001D057E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interactive Story from TreeHouse";
+			productName = "Interactive Story from TreeHouse";
+			productReference = A73A4DF01D64197A001D057E /* Interactive Story from TreeHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73A4E031D64197A001D057E /* Interactive Story from TreeHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73A4E1B1D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouseTests" */;
+			buildPhases = (
+				A73A4E001D64197A001D057E /* Sources */,
+				A73A4E011D64197A001D057E /* Frameworks */,
+				A73A4E021D64197A001D057E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73A4E061D64197A001D057E /* PBXTargetDependency */,
+			);
+			name = "Interactive Story from TreeHouseTests";
+			productName = "Interactive Story from TreeHouseTests";
+			productReference = A73A4E041D64197A001D057E /* Interactive Story from TreeHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A73A4E0E1D64197A001D057E /* Interactive Story from TreeHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73A4E1E1D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouseUITests" */;
+			buildPhases = (
+				A73A4E0B1D64197A001D057E /* Sources */,
+				A73A4E0C1D64197A001D057E /* Frameworks */,
+				A73A4E0D1D64197A001D057E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73A4E111D64197A001D057E /* PBXTargetDependency */,
+			);
+			name = "Interactive Story from TreeHouseUITests";
+			productName = "Interactive Story from TreeHouseUITests";
+			productReference = A73A4E0F1D64197A001D057E /* Interactive Story from TreeHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73A4DE81D64197A001D057E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Erick Barbosa";
+				TargetAttributes = {
+					A73A4DEF1D64197A001D057E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A73A4E031D64197A001D057E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A73A4DEF1D64197A001D057E;
+					};
+					A73A4E0E1D64197A001D057E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A73A4DEF1D64197A001D057E;
+					};
+				};
+			};
+			buildConfigurationList = A73A4DEB1D64197A001D057E /* Build configuration list for PBXProject "Interactive Story from TreeHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73A4DE71D64197A001D057E;
+			productRefGroup = A73A4DF11D64197A001D057E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73A4DEF1D64197A001D057E /* Interactive Story from TreeHouse */,
+				A73A4E031D64197A001D057E /* Interactive Story from TreeHouseTests */,
+				A73A4E0E1D64197A001D057E /* Interactive Story from TreeHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73A4DEE1D64197A001D057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A4DFE1D64197A001D057E /* LaunchScreen.storyboard in Resources */,
+				A73A4DFB1D64197A001D057E /* Assets.xcassets in Resources */,
+				A73A4DF91D64197A001D057E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E021D64197A001D057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E0D1D64197A001D057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73A4DEC1D64197A001D057E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A4DF61D64197A001D057E /* ViewController.swift in Sources */,
+				A73A4DF41D64197A001D057E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E001D64197A001D057E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A4E091D64197A001D057E /* Interactive_Story_from_TreeHouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73A4E0B1D64197A001D057E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A4E141D64197A001D057E /* Interactive_Story_from_TreeHouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73A4E061D64197A001D057E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73A4DEF1D64197A001D057E /* Interactive Story from TreeHouse */;
+			targetProxy = A73A4E051D64197A001D057E /* PBXContainerItemProxy */;
+		};
+		A73A4E111D64197A001D057E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73A4DEF1D64197A001D057E /* Interactive Story from TreeHouse */;
+			targetProxy = A73A4E101D64197A001D057E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A73A4DF71D64197A001D057E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73A4DF81D64197A001D057E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A73A4DFC1D64197A001D057E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73A4DFD1D64197A001D057E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73A4E161D64197A001D057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73A4E171D64197A001D057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73A4E191D64197A001D057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interactive Story from TreeHouse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A73A4E1A1D64197A001D057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interactive Story from TreeHouse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A73A4E1C1D64197A001D057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interactive Story from TreeHouseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactive Story from TreeHouse.app/Interactive Story from TreeHouse";
+			};
+			name = Debug;
+		};
+		A73A4E1D1D64197A001D057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interactive Story from TreeHouseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactive Story from TreeHouse.app/Interactive Story from TreeHouse";
+			};
+			name = Release;
+		};
+		A73A4E1F1D64197A001D057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interactive Story from TreeHouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interactive Story from TreeHouse";
+			};
+			name = Debug;
+		};
+		A73A4E201D64197A001D057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interactive Story from TreeHouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pitApps.Interactive-Story-from-TreeHouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interactive Story from TreeHouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73A4DEB1D64197A001D057E /* Build configuration list for PBXProject "Interactive Story from TreeHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73A4E161D64197A001D057E /* Debug */,
+				A73A4E171D64197A001D057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73A4E181D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73A4E191D64197A001D057E /* Debug */,
+				A73A4E1A1D64197A001D057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73A4E1B1D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73A4E1C1D64197A001D057E /* Debug */,
+				A73A4E1D1D64197A001D057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73A4E1E1D64197A001D057E /* Build configuration list for PBXNativeTarget "Interactive Story from TreeHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73A4E1F1D64197A001D057E /* Debug */,
+				A73A4E201D64197A001D057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73A4DE81D64197A001D057E /* Project object */;
+}
